@@ -5,34 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/leaf.png" type="images/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
     <title>My Portfolio</title>
   </head>
-  <body bgcolor="#f1f4c6">
-    <h1>My Portfolio</h1>
-    <img
-      src="images/vanda.jpg"
-      width="250px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h3 class="mid">Welcome to my Portfolio</h3>
-    <p style="text-align: center">I am Vanda<br />Nice to meet you</p>
-    <h3>About me</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Profile</h3>
-      <p>
-        <dd>
-          Name : Rungthip Phongsupasa
-          <br />Nickname : Vanda<br />Birthday : 16 Jan 2004 Age : 19
-        </dd>
-      </p>
+  <body>
+    <div
+      class="d-flex border-bottom gap-3 align-items-center p-2 px-4 bg-info text-white"
+    >
+      <h3 class="text-white">My Portfolio</h3>
+      <a href="index.html" class="text-white d-none d-sm-block">Home</a>
+      <a href="experience.html" class="text-white d-none d-sm-block"
+        >Experience</a
+      >
+      <a href="gallery.html" class="text-white d-none d-sm-block">Gallery</a>
+      <a href="contact.html" class="me-auto text-white d-none d-sm-block"
+        >Contact</a
+      >
+      <span class="d-none d-md-block">Hi everyone😊</span>
     </div>
-    <div class="skill-container">
-      <h3 class="skill-header">Programming</h3>
-      <p><dd>I have experience coding c++.</dd></p>
+    <div
+      class="d-flex justify-content-center gap-4 mx-auto align-items-center p-4"
+      style="max-width: 45rem"
+    >
+      <div>
+        <img
+          src="images/vanda.jpg"
+          width="200px"
+          height="200px"
+          class="rounded-circle"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="display-6 mb-3">Rungthip Phongsupasa</div>
+        <div>
+          Hi, my name is Rungthip. I studing Computer Engineering at Chiangmai
+          University. I love listening to musics🎧,playing game🎮 and cooking👩🏻‍🍳
+          in free time...
+        </div>
+      </div>
     </div>
-    <center>
-      <a href="index.html">Home</a> | <a href="experience.html">Experience</a> |
-      <a href="contact.html"> Contact</a>
-    </center>
+
+    <h3>Skill</h3>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm skill-container">
+        <div class="imageleft">
+          <img
+            src="images/coding.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="imageleft d-none d-sm-block"
+          />
+        </div>
+        <div class="p-3">
+          <h4>Programming</h4>
+          <p class="p-3">I have experience coding c++.</p>
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm skill-container">
+        <div class="imageleft">
+          <img
+            src="images/cooking.png"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="imageleft d-none d-sm-block"
+          />
+        </div>
+        <div class="p-3">
+          <h4>Cooking</h4>
+          <p class="p-3">
+            I like cooking and I usaully cooking with my father if I have free
+            time.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -7,8 +7,12 @@ h3 {
   color: #412525;
   font-style: italic;
   text-align: center;
+  font-family: "Caprasimo", cursive;
 }
-p {
+h4 {
+  font-family: "Caprasimo", cursive;
+}
+body {
   font-size: 18px;
 }
 .mid {
@@ -17,14 +21,24 @@ p {
 }
 .skill-header {
   text-align: left;
-  margin-inline-start: 25px;
+  padding: 10px;
 }
 .skill-container {
-  border: solid #3b5441;
-  border-radius: 12px;
-  height: 125px;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  border: solid #000000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.imageleft {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.card {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #fff;
 }

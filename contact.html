@@ -5,27 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/leaf.png" type="images/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
     <title>My Portfolio</title>
   </head>
-  <body bgcolor="#f1f4c6">
-    <h1>My Portfolio</h1>
-    <img
-      src="images/vanda.jpg"
-      width="250px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h3 class="mid">Welcome to my Portfolio</h3>
-    <p style="text-align: center">I am Vanda<br />Nice to meet you</p>
-    <h3>Contact</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Tel : 0928916408</h3>
-      <a href="mailto:rungthip_phongsupasa@cmu.ac.th"
-        ><h3 class="skill-header">Email :rungthip_phongsupasa@cmu.ac.th</h3></a
+  <body>
+    <div
+      class="d-flex border-bottom gap-3 align-items-center p-2 px-4 bg-info text-white"
+    >
+      <h3 class="text-white">My Portfolio</h3>
+      <a href="index.html" class="text-white d-none d-sm-block">Home</a>
+      <a href="experience.html" class="text-white d-none d-sm-block"
+        >Experience</a
       >
+      <a href="gallery.html" class="text-white d-none d-sm-block">Gallery</a>
+      <a href="contact.html" class="me-auto text-white d-none d-sm-block"
+        >Contact</a
+      >
+      <span class="d-none d-md-block">Hi everyone😊</span>
     </div>
-    <center>
-      <a href="index.html">Home</a> | <a href="experience.html">Experience</a> |
-      <a href="contact.html"> Contact</a>
-    </center>
+    <h3>Contact</h3>
+    <div
+      class="d-flex justify-content-center gap-4 mx-auto align-items-center p-4"
+      style="max-width: 45rem"
+    >
+      <div>
+        <img
+          src="images/vanda.jpg"
+          width="200px"
+          height="200px"
+          class="rounded-circle"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <!-- อย่าลืมแก้ข้อมูล / ปรับสีฟ้อน / ลักษณะฟ้อน -->
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Name</div>
+          <span>Rungthip Phongsupasa</span>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Nick name</div>
+          <span>Vanda</span>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Address</div>
+          <span
+            >399 Nan-thungchang ,Tambon Tawangpa Amphoe Tawangpa Nan 55140</span
+          >
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Facebook</div>
+          <a href="https://www.facebook.com/Newl3elluga/"
+            >Rungthip Phongsupasa</a
+          >
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Email</div>
+          <a href="mailto:rungthip_phongsupasa@cmu.ac.th"
+            >rungthip_phongsupasa@cmu.ac.th</a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
